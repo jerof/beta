@@ -2,3 +2,6 @@
 
 <p>Title: <%= @post.title %></p>
 <p>Description: <%= @post.description %></p>
+
+<p><%= link_to 'Edit article', edit_post_path(@post) %></p>
+<p><%= link_to 'Listings page', posts_path %></p>
